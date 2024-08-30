@@ -1,0 +1,107 @@
+@import url('fonts.css');
+
+.container {
+    background-color: var(--stone-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container .recipe-omelette {
+    max-width: 620px;
+    height: auto;
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 80px auto;
+}
+
+.container .recipe-omelette .image {
+    width: 580px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container .recipe-omelette h1 {
+    font-family: 'Young-serif', serif;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.container .recipe-omelette h2 {
+    font-family: 'Young-serif', serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--brown-800);
+    margin-bottom: 10px;
+}
+
+.container .recipe-omelette h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--rose-800);
+    margin-bottom: 10px;
+}
+
+.container .recipe-omelette p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.container .recipe-omelette .preparation-time {
+    background-color: var(--rose-50);
+    padding: 20px 20px 10px;
+    border-radius: 10px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.container .recipe-omelette .preparation-time ul li, .ingredients ul li, .instructions ol li {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.container .recipe-omelette .ingredients, .instructions {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid var(--stone-150);
+}
+
+.container .recipe-omelette .instructions .list {
+    margin-left: 10px;
+}
+
+.container .recipe-omelette .nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: none;
+    padding: 8px 20px;
+}
+
+tr:not(:last-child) td {
+    border-bottom: 2px solid var(--stone-150);
+}
+
+td:nth-child(2) {
+    font-weight: 700;
+    color: var(--brown-800);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }

@@ -1,0 +1,16 @@
+@media(max-width: 425px){
+    .container .recipe-omelette {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .container .recipe-omelette .image {
+        max-width: 425px;
+        border-radius: 0;
+    }
+
+    .container .recipe-omelette .home, .preparation-time, .ingredients, .instructions, .nutrition {
+        margin: 30px;
+    }
+}
